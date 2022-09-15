@@ -72,6 +72,49 @@
 // console.log("Your BMI is: "+Math.floor(bmi));
 
 //RANDOM NUMBER GENERATOR
-const prompt=require("prompt-sync")();
-var n=Math.random();
-console.log(n);
+// const prompt=require("prompt-sync")();
+// var n=Math.random();
+// console.log(n);
+
+//DICE NUMBER GENERATOR
+// var n=Math.random();
+// console.log(Math.floor(n*6)+1);
+
+//LOVE CALCULATOR
+// const prompt=require("prompt-sync")();
+// console.log("Welcome!! to the Love Calculator")
+// var n=prompt("Enter your name: ");
+// var m=prompt("Enter your crush name: ");
+// var x=Math.random();
+// console.log("Your Love percentage is: "+Math.floor(x*100)+"%");
+
+//LEAP YEAR 
+// const prompt=require("prompt-sync")();
+// var n=prompt("Enter the year: ");
+// if(n%400===0 || (n%4===0 && n%100!==0)){
+//     console.log("Yes, this is a leap Year");
+// }
+// else{
+//     console.log("No, this is not a leap year");
+// }
+
+//GUEST LIST
+// const prompt=require("prompt-sync")();
+// var guest=["aman", "harsh", "vani", "bissa", "snehal", "priyank", "riya"];
+// var name=prompt("Enter the name of guest: ");
+// if(guest.includes(name)){
+//     console.log("Welcome, to the night out party");
+// }
+// else{
+//     console.log("Sorry, you have to leave");
+// }
+
+//LUNCH
+// const prompt=require("prompt-sync")();
+// function lunch(name, k){
+//     var y=Math.floor(Math.random()*k);
+//     console.log(name[y]+" is going to buy lunch today.");
+// }
+// var name=["aman", "harsh", "vani", "bissa", "snehal", "priyank", "riya"];;
+// var k=name.length;
+// lunch(name, k);
